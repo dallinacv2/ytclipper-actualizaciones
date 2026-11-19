@@ -1,7 +1,7 @@
 {
   "version": "1.40",
   "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.40/ytclipper-1.40.zip",
-  "sha256": "d1726ee144e7f1cbf6e284ce22905201bab3876f3cfc331f33ea3ec5881d1d88",
-  "bytes": 349862,
+  "sha256": "569ff75267808d3ad1e13d4bcd74d552bd430d0fd5f85fa9365274f2bb9cf6a3",
+  "bytes": 349944,
   "notas": "Actualizaciones automáticas (lo nuevo de esta versión):\n- Cuando hay una versión nueva, la app avisa en la cabecera; un clic y\n  se descarga, se verifica y se instala sola. NO toca tus clips ni tu\n  activación.\n- Las copias repartidas en ZIP ya se actualizan solas (sin git ni\n  cuenta de GitHub).\n\nAdemás:\n- El candado muestra la fecha exacta del último día válido.\n- actualizar.bat dice el motivo real si algo falla y ya no se queda\n  colgado."
 }
