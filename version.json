@@ -1,7 +1,7 @@
 {
-  "version": "1.40",
-  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.40/ytclipper-1.40.zip",
-  "sha256": "5291ae1aa27d5b74112d4b591b7da06c05b80dc0833ff42ed6000876d69b01fb",
-  "bytes": 349944,
-  "notas": "Actualizaciones automáticas (lo nuevo de esta versión):\n- Cuando hay una versión nueva, la app avisa en la cabecera; un clic y\n  se descarga, se verifica y se instala sola. NO toca tus clips ni tu\n  activación.\n- Las copias repartidas en ZIP ya se actualizan solas (sin git ni\n  cuenta de GitHub).\n\nAdemás:\n- El candado muestra la fecha exacta del último día válido.\n- actualizar.bat dice el motivo real si algo falla y ya no se queda\n  colgado."
+  "version": "1.41",
+  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.41/ytclipper-1.41.zip",
+  "sha256": "12ca4d5c5c57944ab3c48be8bc45f15a9bda6d6d0a9f0204e8e2356b546c8e20",
+  "bytes": 356573,
+  "notas": "Panel de EDICIÓN arreglado (lo nuevo de esta versión):\n- \"Preparar para móvil\" hace primero el vertical y después los subtítulos:\n  el vertical ya sale subtitulado sin repetir el trabajo.\n- La letra, el tamaño y la posición se aplican al pulsar. Ya no hay que\n  \"Guardar plantilla\" para que los cambios surtan efecto.\n- Al terminar, el resultado queda a la vista con \"Ver\" y \"Abrir carpeta\",\n  y la lista de variantes se actualiza sola.\n- Un solo trabajo a la vez: los botones se bloquean mientras procesa.\n- \"Ver ejemplo\" genera 3 segundos con un fotograma real y el estilo\n  elegido, sin procesar el clip entero.\n- Marca y logo pasan a un desplegable: no estorban si no se usan.\n- El tamaño aplicado se indica debajo del estilo (el del estilo o el\n  fijado a mano).\n\nTus clips y tu activación no se tocan."
 }
