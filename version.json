@@ -1,7 +1,7 @@
 {
-  "version": "1.41",
-  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.41/ytclipper-1.41.zip",
-  "sha256": "12ca4d5c5c57944ab3c48be8bc45f15a9bda6d6d0a9f0204e8e2356b546c8e20",
-  "bytes": 356573,
-  "notas": "Panel de EDICIÓN arreglado (lo nuevo de esta versión):\n- \"Preparar para móvil\" hace primero el vertical y después los subtítulos:\n  el vertical ya sale subtitulado sin repetir el trabajo.\n- La letra, el tamaño y la posición se aplican al pulsar. Ya no hay que\n  \"Guardar plantilla\" para que los cambios surtan efecto.\n- Al terminar, el resultado queda a la vista con \"Ver\" y \"Abrir carpeta\",\n  y la lista de variantes se actualiza sola.\n- Un solo trabajo a la vez: los botones se bloquean mientras procesa.\n- \"Ver ejemplo\" genera 3 segundos con un fotograma real y el estilo\n  elegido, sin procesar el clip entero.\n- Marca y logo pasan a un desplegable: no estorban si no se usan.\n- El tamaño aplicado se indica debajo del estilo (el del estilo o el\n  fijado a mano).\n\nTus clips y tu activación no se tocan."
+  "version": "1.42",
+  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.42/ytclipper-1.42.zip",
+  "sha256": "7e29764d04ba5d0eb3b60dc5d5cf8957c5b9e3d23430f40c4feaa3190479bfb3",
+  "bytes": 358923,
+  "notas": "Analizar solo una parte de los vídeos largos (lo nuevo de esta versión):\n- En la ventana y en el panel: \"Escanear del minuto __ al __\".\n  Ejemplo: del 60 al 120 = analiza solo de la hora 1 a la 2.\n- Los clips salen al terminar ese tramo, sin esperar al final del vídeo:\n  en un vídeo de 3 horas, analizar 1 hora tarda un tercio.\n- Si dejas los dos campos vacíos, todo funciona como antes. En directo\n  se ignoran (allí los clips se cortan al vuelo).\n- Si el minuto de fin no es mayor que el de inicio, el log lo avisa y no\n  escanea; si el fin supera la duración real, se analiza hasta el final.\n- La barra de progreso ahora avanza sobre el tramo elegido.\n\nTus clips y tu activación no se tocan."
 }
