@@ -1,7 +1,7 @@
 {
-  "version": "1.44",
-  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.44/ytclipper-1.44.zip",
-  "sha256": "790e816be245ffc94ceaf529fcb0e8709ec4d3e9b2b6c84e11e684fa211616df",
-  "bytes": 560229,
-  "notas": "Los clips ya no se retrasan con el formato vertical (lo nuevo):\n\n- Antes, mientras se preparaba la versión vertical de un clip (9:16),\n  la app dejaba de cortar y analizar el directo durante varios minutos:\n  los clips salían tarde, en ráfagas, y alguno podía perderse.\n- Ahora la versión vertical se prepara en segundo plano: el directo\n  sigue analizando y cortando clips al momento. La vertical aparece\n  unos minutos después, pero ya no frena nada.\n- Al detener la captura se espera a la vertical que esté en curso, para\n  que no quede ningún archivo a medias.\n\nTus clips, tus ajustes y tu activación no se tocan."
+  "version": "1.45",
+  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.45/ytclipper-1.45.zip",
+  "sha256": "b98dd523d9dc3e14185977b2baaa9b749ef4d4de9fe9f93db10107490d972b99",
+  "bytes": 560916,
+  "notas": "Arreglado el cierre inesperado de la captura (lo nuevo):\n\n- En directos con el chat activado, la app podía cerrarse sola con un\n  error interno al medir la actividad del chat. Ya está corregido: el\n  chat y el corte de clips pueden trabajar a la vez sin pisarse.\n- Si te pasó, vuelve a darle a \"Comenzar\": los clips ya cortados, tus\n  ajustes y tu activación siguen intactos.\n\nConsejo para directos con muchos clips:\n\n- El formato vertical \"follow\" tarda varios minutos por clip. En un\n  equipo modesto, si haces muchos clips, las verticales pueden ir con\n  retraso. Para ir al día, elige \"horizontal\" en directo y convierte\n  después solo los clips que vayas a publicar, o usa \"crop\" (más rápido).\n\nTus clips, tus ajustes y tu activación no se tocan."
 }
