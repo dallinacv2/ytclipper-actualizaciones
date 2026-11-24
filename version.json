@@ -1,7 +1,7 @@
 {
-  "version": "1.43",
-  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.43/ytclipper-1.43.zip",
-  "sha256": "ff27de6df765a18f9fb48abd4130f5424d441520a0818b96f3048dac8b4e3eb5",
-  "bytes": 557547,
-  "notas": "Icono nuevo (lo nuevo de esta versión):\n- La app, el acceso directo del escritorio y la pestaña del panel web\n  usan ya el icono nuevo (tijeras neón y tira de película).\n- La ventana y la barra de tareas también lo muestran: antes la ventana\n  usaba el icono genérico de Python/Tk.\n- El acceso directo que ya tengas se actualiza solo (apunta al mismo\n  archivo). Si Windows tarda en refrescarlo, reinicia el equipo.\n\nTus clips y tu activación no se tocan."
+  "version": "1.44",
+  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.44/ytclipper-1.44.zip",
+  "sha256": "790e816be245ffc94ceaf529fcb0e8709ec4d3e9b2b6c84e11e684fa211616df",
+  "bytes": 560229,
+  "notas": "Los clips ya no se retrasan con el formato vertical (lo nuevo):\n\n- Antes, mientras se preparaba la versión vertical de un clip (9:16),\n  la app dejaba de cortar y analizar el directo durante varios minutos:\n  los clips salían tarde, en ráfagas, y alguno podía perderse.\n- Ahora la versión vertical se prepara en segundo plano: el directo\n  sigue analizando y cortando clips al momento. La vertical aparece\n  unos minutos después, pero ya no frena nada.\n- Al detener la captura se espera a la vertical que esté en curso, para\n  que no quede ningún archivo a medias.\n\nTus clips, tus ajustes y tu activación no se tocan."
 }
