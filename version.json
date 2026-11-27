@@ -1,7 +1,7 @@
 {
-  "version": "1.47",
-  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.47/ytclipper-1.47.zip",
-  "sha256": "d34a394f57a10386a07e1a67ca07d7d54fb7f20f007638789670c891c3e3d23b",
-  "bytes": 564637,
-  "notas": "Mejorado para equipos donde yt-dlp no esta en el PATH (lo nuevo):\n\n- La app ahora usa yt-dlp aunque solo este instalado como modulo de\n  Python (python -m yt_dlp), que es lo habitual en Windows. Antes\n  fallaba con \"yt-dlp no esta instalado ni en el PATH\" aunque estuviera\n  instalado.\n- Tambien se reparo la instalacion de yt-dlp de este equipo (el .exe\n  faltaba por una instalacion incompleta).\n\nTus clips, tus ajustes y tu activacion no se tocan."
+  "version": "1.48",
+  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.48/ytclipper-1.48.zip",
+  "sha256": "2e1db8f2ca7b63c733004813fe7b539a26bc7599a40c1f48a6bee635faf4ae21",
+  "bytes": 564643,
+  "notas": "Arreglado que la app no arrancaba (lo nuevo):\n\n- En v1.46/v1.47 la captura fallaba al empezar con\n  \"NameError: name 'Buffer' is not defined\" porque se perdió una linea\n  de importacion al añadir la limpieza. Ya está restaurada.\n- Junto con los arreglos anteriores (yt-dlp, solo vertical, cierre\n  ordenado).\n\nTus clips, tus ajustes y tu activacion no se tocan."
 }
