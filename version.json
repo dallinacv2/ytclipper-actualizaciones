@@ -1,7 +1,7 @@
 {
-  "version": "1.45",
-  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.45/ytclipper-1.45.zip",
-  "sha256": "b98dd523d9dc3e14185977b2baaa9b749ef4d4de9fe9f93db10107490d972b99",
-  "bytes": 560916,
-  "notas": "Arreglado el cierre inesperado de la captura (lo nuevo):\n\n- En directos con el chat activado, la app podía cerrarse sola con un\n  error interno al medir la actividad del chat. Ya está corregido: el\n  chat y el corte de clips pueden trabajar a la vez sin pisarse.\n- Si te pasó, vuelve a darle a \"Comenzar\": los clips ya cortados, tus\n  ajustes y tu activación siguen intactos.\n\nConsejo para directos con muchos clips:\n\n- El formato vertical \"follow\" tarda varios minutos por clip. En un\n  equipo modesto, si haces muchos clips, las verticales pueden ir con\n  retraso. Para ir al día, elige \"horizontal\" en directo y convierte\n  después solo los clips que vayas a publicar, o usa \"crop\" (más rápido).\n\nTus clips, tus ajustes y tu activación no se tocan."
+  "version": "1.46",
+  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.46/ytclipper-1.46.zip",
+  "sha256": "92215c5eb6a9ec936bb9a1e65a795120317902966596b674bfbcf807a3bcc1a8",
+  "bytes": 563936,
+  "notas": "Arreglado que \"solo vertical\" no borraba los horizontales (lo nuevo):\n\n- Antes, al detener la captura desde la ventana se mataba el proceso y\n  el borrado final nunca se ejecutaba: los horizontales se quedaban.\n- Ahora Detener espera a que termine la conversión en curso y borra los\n  originales cuya vertical está completa. Si algo se queda a medias, el\n  original se conserva (no se pierde el clip).\n- Botón nuevo en EDICIÓN: \"Borrar horizontales ya convertidos\", para\n  limpiar a mano los que ya tienen su vertical.\n- Además, no se pueden lanzar dos capturas a la vez por accidente.\n\nTus clips, tus ajustes y tu activación no se tocan."
 }
