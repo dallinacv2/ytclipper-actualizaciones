@@ -1,7 +1,7 @@
 {
-  "version": "1.46",
-  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.46/ytclipper-1.46.zip",
-  "sha256": "92215c5eb6a9ec936bb9a1e65a795120317902966596b674bfbcf807a3bcc1a8",
-  "bytes": 563936,
-  "notas": "Arreglado que \"solo vertical\" no borraba los horizontales (lo nuevo):\n\n- Antes, al detener la captura desde la ventana se mataba el proceso y\n  el borrado final nunca se ejecutaba: los horizontales se quedaban.\n- Ahora Detener espera a que termine la conversión en curso y borra los\n  originales cuya vertical está completa. Si algo se queda a medias, el\n  original se conserva (no se pierde el clip).\n- Botón nuevo en EDICIÓN: \"Borrar horizontales ya convertidos\", para\n  limpiar a mano los que ya tienen su vertical.\n- Además, no se pueden lanzar dos capturas a la vez por accidente.\n\nTus clips, tus ajustes y tu activación no se tocan."
+  "version": "1.47",
+  "url": "https://github.com/dallinacv2/ytclipper-actualizaciones/releases/download/v1.47/ytclipper-1.47.zip",
+  "sha256": "d34a394f57a10386a07e1a67ca07d7d54fb7f20f007638789670c891c3e3d23b",
+  "bytes": 564637,
+  "notas": "Mejorado para equipos donde yt-dlp no esta en el PATH (lo nuevo):\n\n- La app ahora usa yt-dlp aunque solo este instalado como modulo de\n  Python (python -m yt_dlp), que es lo habitual en Windows. Antes\n  fallaba con \"yt-dlp no esta instalado ni en el PATH\" aunque estuviera\n  instalado.\n- Tambien se reparo la instalacion de yt-dlp de este equipo (el .exe\n  faltaba por una instalacion incompleta).\n\nTus clips, tus ajustes y tu activacion no se tocan."
 }
